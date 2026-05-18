@@ -45,7 +45,7 @@ Keep the response concise, professional, and actionable.`;
         'X-Title': 'Employee Analytics App',
       },
       body: JSON.stringify({
-        model: 'mistralai/mistral-7b-instruct:free',
+        model: 'google/gemma-2-9b-it:free',
         messages: [{ role: 'user', content: prompt }],
         max_tokens: 600,
       }),
