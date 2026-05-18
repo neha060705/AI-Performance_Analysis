@@ -39,6 +39,7 @@ function AppRoutes() {
         <Route path="/employees/edit/:id" element={<PrivateRoute><EditEmployee /></PrivateRoute>} />
         <Route path="/ai/recommend" element={<PrivateRoute><AIRecommendations /></PrivateRoute>} />
         <Route path="/ai/rankings" element={<PrivateRoute><AIRankings /></PrivateRoute>} />
+        <Route path="*" element={<Navigate to="/dashboard" />} />
       </Routes>
     </>
   );
