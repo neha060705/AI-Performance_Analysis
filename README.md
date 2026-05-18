@@ -1,6 +1,10 @@
 # ⚡ EmpAnalytics — AI-Based Employee Performance Analytics System
 ### MERN Stack + OpenRouter AI | B.Tech ESE Project
 
+Frontend Deploy Render Link: https://emp-analytics-frontend.onrender.com
+Backend Deploy Render Link: https://emp-analytics-backend.onrender.com
+****
+
 ---
 
 ## 📁 Project Structure
