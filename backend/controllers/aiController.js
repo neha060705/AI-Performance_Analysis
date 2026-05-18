@@ -45,7 +45,7 @@ Keep the response concise, professional, and actionable.`;
         'X-Title': 'Employee Analytics App',
       },
       body: JSON.stringify({
-        model: 'google/gemma-2-9b-it:free',
+       model: 'openrouter/free',
         messages: [{ role: 'user', content: prompt }],
         max_tokens: 600,
       }),
@@ -108,7 +108,7 @@ Format: [Rank]. [Name] - [Tag] - [One line feedback]`;
         'X-Title': 'Employee Analytics App',
       },
       body: JSON.stringify({
-        model: 'google/gemma-2-9b-it:free',
+       model: 'openrouter/free',
         messages: [{ role: 'user', content: prompt }],
         max_tokens: 800,
       }),
